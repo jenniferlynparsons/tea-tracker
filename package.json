@@ -41,7 +41,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://jenniferlynparsons.github.io/tea-tracker",
+  "homepage": "https://jenniferlynparsons.github.io/tea-tracker/#",
   "devDependencies": {
     "@types/serviceworker": "^0.0.123",
     "gh-pages": "^6.0.0",
