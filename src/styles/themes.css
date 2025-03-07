@@ -1,0 +1,45 @@
+:root[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f1eb;
+  --text-primary: #2c1810;
+  --text-secondary: #5d4037;
+  --accent-color: #2e7d32;
+  --border-color: #d7ccc8;
+  --card-shadow: 0 2px 4px rgba(50,30,20,0.1);
+  --card-shadow-hover: 0 4px 8px rgba(50,30,20,0.15);
+  --accent-color-light: rgba(46, 125, 50, 0.1);
+  --accent-color-dark: #1b5e20;
+  --form-bg: #ffffff;
+  --form-section-bg: #f5f1eb;
+}
+
+:root[data-theme="dark"] {
+  --bg-primary: #2c1810;
+  --bg-secondary: #3e2723;
+  --text-primary: #efebe9;
+  --text-secondary: #d7ccc8;
+  --accent-color: #66bb6a;
+  --border-color: #4e342e;
+  --card-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  --card-shadow-hover: 0 4px 12px rgba(0,0,0,0.4);
+  --accent-color-light: rgba(102, 187, 106, 0.2);
+  --accent-color-dark: #98ee99;
+  --form-bg: transparent;
+  --form-section-bg: #2c1810;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .charts-section {
+    flex-direction: column;
+  }
+}
+
+/* Add smooth transitions for theme changes */
+* {
+  transition: background-color 0.3s, color 0.3s;
+}

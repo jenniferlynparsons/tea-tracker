@@ -1,0 +1,73 @@
+.tea-insights {
+  background: var(--bg-primary);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: var(--card-shadow);
+  margin-bottom: 24px;
+}
+
+.tea-insights h3 {
+  color: var(--text-primary);
+  margin-bottom: 20px;
+  font-size: 1.3em;
+}
+
+.recommendations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.recommendation-section {
+  background: var(--bg-secondary);
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.recommendation-section h4 {
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  font-size: 1em;
+}
+
+.recommendation-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tea-recommendation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: var(--bg-primary);
+  border-radius: 6px;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: all 0.2s;
+}
+
+.tea-recommendation:hover {
+  transform: translateX(4px);
+  background: var(--accent-color-light);
+}
+
+.tea-name {
+  font-weight: 500;
+}
+
+.last-brewed,
+.rating,
+.tea-type {
+  font-size: 0.9em;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .recommendations-grid {
+    grid-template-columns: 1fr;
+  }
+}
