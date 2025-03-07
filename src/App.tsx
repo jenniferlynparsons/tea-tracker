@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { TeaProvider } from './contexts/TeaContext';
 import { PreferencesProvider } from './contexts/PreferencesContext';
 import TeaListPage from './pages/TeaListPage';
@@ -15,7 +15,7 @@ function App() {
     <ErrorBoundary>
       <PreferencesProvider>
         <TeaProvider>
-          <Router basename="/tea-tracker">
+          <Router>
             <div className="App">
               <Navbar />
               <main>
@@ -26,6 +26,7 @@ function App() {
                     <Route path="/tea/new" element={<AddTeaPage />} />
                     <Route path="/tea/:id" element={<TeaDetailPage />} />
                     <Route path="/tea/:id/edit" element={<EditTeaPage />} />
+                    <Route path="*" element={<HomePage />} />
                   </Routes>
                 </Suspense>
               </main>
