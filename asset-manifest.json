@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tea-tracker/static/css/main.967cc5a0.css",
+    "main.js": "/tea-tracker/static/js/main.a32494a3.js",
+    "static/css/598.01abbb13.chunk.css": "/tea-tracker/static/css/598.01abbb13.chunk.css",
+    "static/js/598.580e474a.chunk.js": "/tea-tracker/static/js/598.580e474a.chunk.js",
+    "static/css/370.45ed1ef9.chunk.css": "/tea-tracker/static/css/370.45ed1ef9.chunk.css",
+    "static/js/370.3ff60dd6.chunk.js": "/tea-tracker/static/js/370.3ff60dd6.chunk.js",
+    "static/css/289.f959019e.chunk.css": "/tea-tracker/static/css/289.f959019e.chunk.css",
+    "static/js/289.ee74f71e.chunk.js": "/tea-tracker/static/js/289.ee74f71e.chunk.js",
+    "index.html": "/tea-tracker/index.html",
+    "main.967cc5a0.css.map": "/tea-tracker/static/css/main.967cc5a0.css.map",
+    "main.a32494a3.js.map": "/tea-tracker/static/js/main.a32494a3.js.map",
+    "598.01abbb13.chunk.css.map": "/tea-tracker/static/css/598.01abbb13.chunk.css.map",
+    "598.580e474a.chunk.js.map": "/tea-tracker/static/js/598.580e474a.chunk.js.map",
+    "370.45ed1ef9.chunk.css.map": "/tea-tracker/static/css/370.45ed1ef9.chunk.css.map",
+    "370.3ff60dd6.chunk.js.map": "/tea-tracker/static/js/370.3ff60dd6.chunk.js.map",
+    "289.f959019e.chunk.css.map": "/tea-tracker/static/css/289.f959019e.chunk.css.map",
+    "289.ee74f71e.chunk.js.map": "/tea-tracker/static/js/289.ee74f71e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.967cc5a0.css",
+    "static/js/main.a32494a3.js"
+  ]
+}
