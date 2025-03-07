@@ -15,7 +15,7 @@ function App() {
     <ErrorBoundary>
       <PreferencesProvider>
         <TeaProvider>
-          <Router>
+          <Router basename="/tea-tracker">
             <div className="App">
               <Navbar />
               <main>
